@@ -9,16 +9,34 @@
 /* Begin PBXBuildFile section */
 		03356FE32C80F4AE00DB5F74 /* AsyncAwaitObservationApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 03356FE22C80F4AE00DB5F74 /* AsyncAwaitObservationApp.swift */; };
 		03356FE52C80F4AE00DB5F74 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 03356FE42C80F4AE00DB5F74 /* ContentView.swift */; };
-		03356FE72C80F4AF00DB5F74 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 03356FE62C80F4AF00DB5F74 /* Assets.xcassets */; };
-		03356FEA2C80F4AF00DB5F74 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 03356FE92C80F4AF00DB5F74 /* Preview Assets.xcassets */; };
+		03F509FE2C81C38000347461 /* BooksService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 03F509FD2C81C38000347461 /* BooksService.swift */; };
+		03F50A0C2C83411500347461 /* ObservationActor.swift in Sources */ = {isa = PBXBuildFile; fileRef = 03F50A0B2C83411500347461 /* ObservationActor.swift */; };
+		03F50A0E2C83413B00347461 /* ServiceKey.swift in Sources */ = {isa = PBXBuildFile; fileRef = 03F50A0D2C83413B00347461 /* ServiceKey.swift */; };
+		03F50A112C8341E500347461 /* ObservedService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 03F50A102C8341E500347461 /* ObservedService.swift */; };
+		03F50A132C83420A00347461 /* ServiceObserver.swift in Sources */ = {isa = PBXBuildFile; fileRef = 03F50A122C83420A00347461 /* ServiceObserver.swift */; };
+		03F50A152C8342CF00347461 /* ObservedState.swift in Sources */ = {isa = PBXBuildFile; fileRef = 03F50A142C8342CF00347461 /* ObservedState.swift */; };
+		03F50A1A2C8343D700347461 /* Book.swift in Sources */ = {isa = PBXBuildFile; fileRef = 03F50A192C8343D700347461 /* Book.swift */; };
+		03F50A1C2C8343FC00347461 /* ServiceState.swift in Sources */ = {isa = PBXBuildFile; fileRef = 03F50A1B2C8343FC00347461 /* ServiceState.swift */; };
+		03F50A1E2C83449E00347461 /* UserLogState.swift in Sources */ = {isa = PBXBuildFile; fileRef = 03F50A1D2C83449E00347461 /* UserLogState.swift */; };
+		03F50A202C8344D200347461 /* UserLogService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 03F50A1F2C8344D200347461 /* UserLogService.swift */; };
+		03F50A232C8347E500347461 /* ContentViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 03F50A222C8347E500347461 /* ContentViewModel.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		03356FDF2C80F4AE00DB5F74 /* AsyncAwaitObservation.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = AsyncAwaitObservation.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		03356FE22C80F4AE00DB5F74 /* AsyncAwaitObservationApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AsyncAwaitObservationApp.swift; sourceTree = "<group>"; };
 		03356FE42C80F4AE00DB5F74 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
-		03356FE62C80F4AF00DB5F74 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
-		03356FE92C80F4AF00DB5F74 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		03F509FD2C81C38000347461 /* BooksService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BooksService.swift; sourceTree = "<group>"; };
+		03F50A0B2C83411500347461 /* ObservationActor.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ObservationActor.swift; sourceTree = "<group>"; };
+		03F50A0D2C83413B00347461 /* ServiceKey.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ServiceKey.swift; sourceTree = "<group>"; };
+		03F50A102C8341E500347461 /* ObservedService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ObservedService.swift; sourceTree = "<group>"; };
+		03F50A122C83420A00347461 /* ServiceObserver.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ServiceObserver.swift; sourceTree = "<group>"; };
+		03F50A142C8342CF00347461 /* ObservedState.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ObservedState.swift; sourceTree = "<group>"; };
+		03F50A192C8343D700347461 /* Book.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Book.swift; sourceTree = "<group>"; };
+		03F50A1B2C8343FC00347461 /* ServiceState.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ServiceState.swift; sourceTree = "<group>"; };
+		03F50A1D2C83449E00347461 /* UserLogState.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserLogState.swift; sourceTree = "<group>"; };
+		03F50A1F2C8344D200347461 /* UserLogService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserLogService.swift; sourceTree = "<group>"; };
+		03F50A222C8347E500347461 /* ContentViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentViewModel.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -51,20 +69,69 @@
 		03356FE12C80F4AE00DB5F74 /* AsyncAwaitObservation */ = {
 			isa = PBXGroup;
 			children = (
-				03356FE22C80F4AE00DB5F74 /* AsyncAwaitObservationApp.swift */,
-				03356FE42C80F4AE00DB5F74 /* ContentView.swift */,
-				03356FE62C80F4AF00DB5F74 /* Assets.xcassets */,
-				03356FE82C80F4AF00DB5F74 /* Preview Content */,
+				03F50A162C83430700347461 /* AppExample */,
+				03F50A0A2C83410200347461 /* Observation */,
 			);
 			path = AsyncAwaitObservation;
 			sourceTree = "<group>";
 		};
-		03356FE82C80F4AF00DB5F74 /* Preview Content */ = {
+		03F50A0A2C83410200347461 /* Observation */ = {
 			isa = PBXGroup;
 			children = (
-				03356FE92C80F4AF00DB5F74 /* Preview Assets.xcassets */,
+				03F50A0B2C83411500347461 /* ObservationActor.swift */,
+				03F50A122C83420A00347461 /* ServiceObserver.swift */,
+				03F50A102C8341E500347461 /* ObservedService.swift */,
+				03F50A0D2C83413B00347461 /* ServiceKey.swift */,
+				03F50A142C8342CF00347461 /* ObservedState.swift */,
+				03F50A1B2C8343FC00347461 /* ServiceState.swift */,
 			);
-			path = "Preview Content";
+			path = Observation;
+			sourceTree = "<group>";
+		};
+		03F50A162C83430700347461 /* AppExample */ = {
+			isa = PBXGroup;
+			children = (
+				03356FE22C80F4AE00DB5F74 /* AsyncAwaitObservationApp.swift */,
+				03F50A172C83434500347461 /* Services */,
+				03F50A182C8343D000347461 /* Models */,
+				03F50A242C83480B00347461 /* View */,
+				03F50A212C8347DA00347461 /* ViewModel */,
+			);
+			path = AppExample;
+			sourceTree = "<group>";
+		};
+		03F50A172C83434500347461 /* Services */ = {
+			isa = PBXGroup;
+			children = (
+				03F509FD2C81C38000347461 /* BooksService.swift */,
+				03F50A1F2C8344D200347461 /* UserLogService.swift */,
+			);
+			path = Services;
+			sourceTree = "<group>";
+		};
+		03F50A182C8343D000347461 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				03F50A192C8343D700347461 /* Book.swift */,
+				03F50A1D2C83449E00347461 /* UserLogState.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		03F50A212C8347DA00347461 /* ViewModel */ = {
+			isa = PBXGroup;
+			children = (
+				03F50A222C8347E500347461 /* ContentViewModel.swift */,
+			);
+			path = ViewModel;
+			sourceTree = "<group>";
+		};
+		03F50A242C83480B00347461 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				03356FE42C80F4AE00DB5F74 /* ContentView.swift */,
+			);
+			path = View;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -125,8 +192,6 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				03356FEA2C80F4AF00DB5F74 /* Preview Assets.xcassets in Resources */,
-				03356FE72C80F4AF00DB5F74 /* Assets.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -137,8 +202,19 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				03F50A0C2C83411500347461 /* ObservationActor.swift in Sources */,
+				03F50A202C8344D200347461 /* UserLogService.swift in Sources */,
+				03F509FE2C81C38000347461 /* BooksService.swift in Sources */,
 				03356FE52C80F4AE00DB5F74 /* ContentView.swift in Sources */,
+				03F50A112C8341E500347461 /* ObservedService.swift in Sources */,
+				03F50A152C8342CF00347461 /* ObservedState.swift in Sources */,
+				03F50A132C83420A00347461 /* ServiceObserver.swift in Sources */,
 				03356FE32C80F4AE00DB5F74 /* AsyncAwaitObservationApp.swift in Sources */,
+				03F50A1E2C83449E00347461 /* UserLogState.swift in Sources */,
+				03F50A0E2C83413B00347461 /* ServiceKey.swift in Sources */,
+				03F50A232C8347E500347461 /* ContentViewModel.swift in Sources */,
+				03F50A1A2C8343D700347461 /* Book.swift in Sources */,
+				03F50A1C2C8343FC00347461 /* ServiceState.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -288,6 +364,7 @@
 				PRODUCT_BUNDLE_IDENTIFIER = com.adriencullier.AsyncAwaitObservation;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_STRICT_CONCURRENCY = complete;
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
@@ -317,6 +394,7 @@
 				PRODUCT_BUNDLE_IDENTIFIER = com.adriencullier.AsyncAwaitObservation;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_STRICT_CONCURRENCY = complete;
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
