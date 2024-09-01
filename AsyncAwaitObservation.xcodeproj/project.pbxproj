@@ -50,6 +50,13 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		032BFF4A2C8439DB00FD3A58 /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
 		03356FD62C80F4AE00DB5F74 = {
 			isa = PBXGroup;
 			children = (
@@ -69,8 +76,9 @@
 		03356FE12C80F4AE00DB5F74 /* AsyncAwaitObservation */ = {
 			isa = PBXGroup;
 			children = (
-				03F50A162C83430700347461 /* AppExample */,
 				03F50A0A2C83410200347461 /* Observation */,
+				03F50A162C83430700347461 /* DemoApp */,
+				032BFF4A2C8439DB00FD3A58 /* Preview Content */,
 			);
 			path = AsyncAwaitObservation;
 			sourceTree = "<group>";
@@ -88,7 +96,7 @@
 			path = Observation;
 			sourceTree = "<group>";
 		};
-		03F50A162C83430700347461 /* AppExample */ = {
+		03F50A162C83430700347461 /* DemoApp */ = {
 			isa = PBXGroup;
 			children = (
 				03356FE22C80F4AE00DB5F74 /* AsyncAwaitObservationApp.swift */,
@@ -97,7 +105,7 @@
 				03F50A242C83480B00347461 /* View */,
 				03F50A212C8347DA00347461 /* ViewModel */,
 			);
-			path = AppExample;
+			path = DemoApp;
 			sourceTree = "<group>";
 		};
 		03F50A172C83434500347461 /* Services */ = {
@@ -281,6 +289,7 @@
 				SDKROOT = iphoneos;
 				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
 				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 6.0;
 			};
 			name = Debug;
 		};
@@ -336,6 +345,7 @@
 				MTL_FAST_MATH = YES;
 				SDKROOT = iphoneos;
 				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_VERSION = 6.0;
 				VALIDATE_PRODUCT = YES;
 			};
 			name = Release;
